@@ -25,6 +25,9 @@ I used the Amazon Services to use one of the EC2 instances before to deploy all 
 *This project is based in create an applicaction similar to Youtube. We will have users that want to upload videos to the community. And they can manage their own videos to delete them or to upload them. All the users can see all the videos that all the users create.*
 I created three Lambda functions with their own API Gateway.
 *All this lambda functions were written in Python and using some extra libraries like pymsql or boto3.
+
 1º) Login/Register: The creation or login of the users in the application.
+
 2º) VideosCheck: The get,delete, post functions that a user can do with their own videos.
+
 3º) AWSCredentials: To use the S3 service, we need to refersh and use your own creedentials to use this service.
